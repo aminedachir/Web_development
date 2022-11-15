@@ -4,16 +4,23 @@
 
     </head>
     <body>
-        <form>
+        <form action="donnes.txt">
             <div>
                 <label>your username</label>
-                <input type="text">
+                <input type="text" required placeholder="username" value="amine" readonly autofocus>
             </div>
             <br>
             <div>
                 <label>your password</label>
-                <input type="password">
+                <input type="password" required placeholder="password" minlength="5" maxlength="10">
             </div>
+            <br>
+            <input type="range" min="0" max="120" step="20" value="0">
+            <br>
+            <input type="number" max="100" step="3" value="60">
+            <br>
+            <input type="color">
+            <input type="reset">
             <input type="submit">
         </form>
     </body>
