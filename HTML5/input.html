@@ -20,6 +20,31 @@
             <input type="number" max="100" step="3" value="60">
             <br>
             <input type="color">
+            <br>
+            <label>Upload</label>
+            <input type="File">
+            <br>
+            <label>Search</label>
+            <input type="search">
+            <br>
+            <label>Date</label>
+            <input type="Date">
+            <br>
+            <label for="willaya">Choose your willaya</label>
+            <select id="willaya">
+                <optgroup label="West">
+                    <option value="1">Oran</option>
+                    <option value="2">Mosta</option>
+                    <option value="3">Tlemcen</option>
+                </optgroup>
+                <optgroup label="East">
+                    <option value="4">Boumerdes</option>
+                    <option value="5">Bejaia</option>
+                    <option value="6">Annaba</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <textarea cols="30" rows="5" placeholder="Descripotion"></textarea>
             <hr>
             <input id="win" type="radio" name="os" value="windows" checked>
             <label for="win">Windows</label>
@@ -27,8 +52,14 @@
             <input id="lin" type="radio" name="os" value="Linux">
             <label for="lin">Linux</label>
             <br>
-            <input id="mac" type="radio" name="os" id="Mac">
-            <label for="mac">Mac</label>
+            <input type="radio" name="os" id="Mac">
+            <label for="Mac">Mac</label>
+            <hr>
+            <input type="checkbox" id="old">
+            <label for="old">Maths</label>
+            <br>
+            <input type="checkbox" id="new">
+            <label for="new">Physics</label>
             <hr>
             <input type="reset">
             <input type="submit">
